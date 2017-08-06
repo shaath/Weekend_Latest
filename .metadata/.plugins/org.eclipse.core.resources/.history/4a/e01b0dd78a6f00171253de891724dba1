@@ -1,0 +1,17 @@
+package webdriverprogrammes;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class GmailLoginEg {
+
+	public static void main(String[] args) 
+	{
+		//Launching the firefox
+		FirefoxDriver driver=new FirefoxDriver();
+		//Launch gmail
+		driver.get("http://gmail.com");
+		//maximizing the window
+		driver.manage().window().maximize();
+	}
+
+}

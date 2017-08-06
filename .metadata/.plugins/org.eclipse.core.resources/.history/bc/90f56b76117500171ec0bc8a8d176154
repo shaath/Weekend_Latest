@@ -1,0 +1,17 @@
+package methods;
+
+public class Reuse {
+
+	public static void main(String[] args)
+	{
+		BasicMethods b=new BasicMethods();
+//		b.function3();
+		
+		int res=b.sum(400,300);
+		System.out.println(res);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package methods;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class OrgHRMMaster 
+{
+	//Launch
+	public String org_Launch()
+	{
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://opensource.demo.orangehrmlive.com/");
+		driver.manage().window().maximize();
+		
+	}
+
+}

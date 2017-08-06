@@ -1,0 +1,12 @@
+package methods;
+
+public class Reuse {
+
+	public static void main(String[] args)
+	{
+		BasicMethods b=new BasicMethods();
+		b.function3();
+
+	}
+
+}

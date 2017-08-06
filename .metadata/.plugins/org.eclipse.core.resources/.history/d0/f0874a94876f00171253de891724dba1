@@ -1,0 +1,15 @@
+package webdriverprogrammes;
+
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class IELAunchEg {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.ie.driver", "");
+		InternetExplorerDriver driver=new InternetExplorerDriver();
+		
+
+	}
+
+}
